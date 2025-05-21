@@ -2,12 +2,12 @@
 
 /* Base Styles */
 :root {
-  --primary-color: #25D366;
-  --primary-dark: #128C7E;
-  --primary-light: #DCF8C6;
-  --secondary-color: #075E54;
-  --accent-color: #34B7F1;
-  --dark-color: #111;
+  --primary-color: #00C853;
+  --primary-dark: #009624;
+  --primary-light: #5EFC82;
+  --secondary-color: #2E7D32;
+  --accent-color: #69F0AE;
+  --dark-color: #1B5E20;
   --light-color: #f8f9fa;
   --gray-color: #6c757d;
   --success-color: #28a745;
