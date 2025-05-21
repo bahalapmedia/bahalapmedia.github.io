@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -267,6 +268,105 @@
         </div>
     </section>
 
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <span class="subtitle">OUR PRICING</span>
+                    <h2 class="section-title">Choose Your Plan</h2>
+                    <div class="section-divider"></div>
+                    
+                    <!-- Pricing Toggle -->
+                    <div class="pricing-toggle mb-5">
+                        <span class="me-3">Monthly</span>
+                        <div class="form-check form-switch d-inline-block">
+                            <input class="form-check-input" type="checkbox" id="pricingToggle">
+                        </div>
+                        <span class="ms-3">Annually <span class="badge bg-success">Save 20%</span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Basic Plan -->
+                <div class="col-lg-4">
+                    <div class="card pricing-card border-0 shadow-sm h-100">
+                        <div class="card-body p-5">
+                            <h3 class="card-title text-center mb-4">Basic</h3>
+                            <div class="price-wrapper text-center mb-4">
+                                <h2 class="price monthly-price">Rp 499K<small>/mo</small></h2>
+                                <h2 class="price annual-price d-none">Rp 399K<small>/mo</small></h2>
+                            </div>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>1 WhatsApp Channel</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>5,000 Messages/month</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Basic API Access</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Email Support</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Basic Analytics</li>
+                            </ul>
+                            <div class="text-center mt-4">
+                                <a href="#contact" class="btn btn-outline-success btn-lg w-100">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="col-lg-4">
+                    <div class="card pricing-card border-0 shadow-lg h-100 popular">
+                        <div class="card-body p-5">
+                            <div class="popular-badge position-absolute top-0 end-0 bg-success text-white px-3 py-1 rounded-bottom">
+                                Popular
+                            </div>
+                            <h3 class="card-title text-center mb-4">Professional</h3>
+                            <div class="price-wrapper text-center mb-4">
+                                <h2 class="price monthly-price">Rp 999K<small>/mo</small></h2>
+                                <h2 class="price annual-price d-none">Rp 799K<small>/mo</small></h2>
+                            </div>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>3 WhatsApp Channels</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>20,000 Messages/month</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Full API Access</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Priority Support</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Advanced Analytics</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Integration</li>
+                            </ul>
+                            <div class="text-center mt-4">
+                                <a href="#contact" class="btn btn-success btn-lg w-100">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="col-lg-4">
+                    <div class="card pricing-card border-0 shadow-sm h-100">
+                        <div class="card-body p-5">
+                            <h3 class="card-title text-center mb-4">Enterprise</h3>
+                            <div class="price-wrapper text-center mb-4">
+                                <h2 class="price monthly-price">Rp 1,999K<small>/mo</small></h2>
+                                <h2 class="price annual-price d-none">Rp 1,599K<small>/mo</small></h2>
+                            </div>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited Channels</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Unlimited Messages</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Premium API Access</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>24/7 Dedicated Support</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Analytics</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Custom Development</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i>SLA Guarantee</li>
+                            </ul>
+                            <div class="text-center mt-4">
+                                <a href="#contact" class="btn btn-outline-success btn-lg w-100">Contact Sales</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Section -->
     <section id="portfolio" class="py-5">
         <div class="container">
@@ -300,9 +400,69 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer py-5">
-        <!-- Previous footer content preserved -->
-    </footer>
+    <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h3 class="text-white mb-4">BAHALAP MEDIA</h3>
+          <p class="text-white-50 mb-4">Empowering businesses with innovative WhatsApp Gateway solutions and professional web development services.</p>
+          <div class="d-flex gap-3 social-links">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="text-white mb-4">Services</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#services">WhatsApp Gateway</a></li>
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">App Development</a></li>
+            <li><a href="#services">Cloud Hosting</a></li>
+            <li><a href="#services">SEO Optimization</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-2 col-md-6 col-6">
+          <h5 class="text-white mb-4">Quick Links</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-white mb-4">Newsletter</h5>
+          <p class="text-white-50 mb-3">Subscribe to our newsletter to receive updates on our services and promotions.</p>
+          <form class="footer-newsletter">
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email">
+              <button class="btn btn-success" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <hr class="mt-4 mb-4 bg-secondary">
+      
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="text-white-50 mb-0">&copy; 2025 BAHALAP MEDIA. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="text-white-50 mb-0">Designed with <i class="bi bi-heart-fill text-danger"></i> by BAHALAP MEDIA</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
     <!-- Back to Top Button -->
     <a href="#" class="back-to-top"><i class="bi bi-arrow-up-short"></i></a>
